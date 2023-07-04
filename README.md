@@ -1,5 +1,5 @@
 # rest-crud-api-security
-- In this project, I have initialized libraries such as Spring Data JPA, Spring Boot DevTools, and the MySQL Driver to manipulate the project. 
+- In this project, I have initialized libraries such as Spring Data JPA, Spring Boot DevTools, Security, and the MySQL Driver to manipulate the project. 
 - After initializing the project, I create packages such as Rest, Dao, Entity, Security, and Service to contain the corresponding classes. In addition, I also configure the application.properties file to connect to the database. 
 - In the entity package, I created a class named Employee and used the @Entity annotation to mark this class, and @Table matches the table name in the database. There are also other annotations for the fields.
 - Then I created an interface class in the dao package. In this class, I use JPARepository to manipulate add, delete, edit, and read API.
